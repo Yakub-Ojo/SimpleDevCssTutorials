@@ -205,4 +205,90 @@ body {
   font-weight: 100;
   color:grey;
   line-height: 5px;
+
+
+}.twitter-account{
+  display: flex;
+  margin-top: 30px;
+  width: 500px;
+  box-shadow: 5px 5px 10px 1px grey;
+}
+.twitter-account-pic{
+  margin: 10px 15px;
+  width: 75px;
+}
+.twitter-account-info{
+  width: 425px;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  
+}
+.twitter-account-details{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.twitter-account-name{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-right: 4px;
+}
+.twitter-account-address{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(128, 128, 128, 0.897);
+  font-weight: 800;
+}
+.tweet{
+  margin-top: 0px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  
+}
+.link-box{
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  width: 380px;
+  padding: 0px 0px;
+  line-height: 20px;
+}
+.empty-space{
+  background-color: rgba(128, 128, 128, 0.404);
+  width: 100px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+.tweet-link{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.youtube-link{
+  text-decoration: none;
+  color: grey;
+}
+.youtube-link-paragraph{
+  margin-bottom: 10px;
+  line-height: 0px;
+}
+.link-desc{
+  margin-top: 20px;
+  margin-right: 10px;
+  line-height: 25px;
+  font-weight: 600;
 }
