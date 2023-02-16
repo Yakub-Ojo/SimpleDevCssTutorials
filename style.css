@@ -152,3 +152,57 @@ body {
   row-gap: 10px;
   margin-bottom: 10px;
 }
+
+.design-13d{
+  margin-top: 50px;
+  width: 500px;
+  background-color:beige;
+  box-shadow: 0.5px 0.5px 10px 0.5px rgb(224, 211, 211);
+  border: 2px solid rgb(231, 231, 191);
+}
+.folder-name{
+  margin: 10px 10px 10px 10px;
+  color: rgba(128, 128, 128, 0.863);
+  font-weight: 600;
+}
+.email-content{
+  display: flex;
+  margin: 0px 10px;
+}
+.profile-pic{
+  margin: 20px 10px 20px 0px;
+  flex: 1;
+}
+.email-heading{
+  flex: 6;
+}
+.email-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+.email-subject{
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+  line-height: 10px;
+}
+.email-time{
+  font-weight: 600;
+  color: grey;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.email-message{
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 10px;
+}
+.email-message-body{
+  font-size: 18px;
+  font-weight: 100;
+  color:grey;
+  line-height: 5px;
+}
