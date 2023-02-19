@@ -1,6 +1,44 @@
+body{
+    height: 3000px;
+}
 .sidebar1{
     background-color: rgb(17, 16, 16);
-    width: 50px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
     display: flex;
     flex-direction: column;
+
+}
+.image1, .image2, .image3{
+    width: 80px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.sidebar2{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.plus{
+    color: rgb(172, 168, 168);
+    font-size: 20px;
+}
+.tags{
+    margin-left: 15px;
+    color: rgb(172, 168, 168);
+    font-size: 17px;    
 }

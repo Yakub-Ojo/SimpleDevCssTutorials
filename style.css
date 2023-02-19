@@ -304,3 +304,7 @@ body {
   color: white;
 
 }
+.exercise-links{
+  margin: 20px;
+  text-decoration: none;
+}
